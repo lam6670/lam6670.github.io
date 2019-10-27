@@ -20,6 +20,7 @@ body{
     height: 45px;
     line-height: 45px;
     float: left;
+    
 }
 #menu ul li a{
     text-decoration: none;
@@ -45,6 +46,9 @@ body{
     display: block;
     width: 120px;
     background: white;
+    -webkit-box-shadow: 37px -20px 29px 31px rgba(0,0,0,0.75);
+    -moz-box-shadow: 37px -20px 29px 31px rgba(0,0,0,0.75);
+    box-shadow: 37px -20px 29px 31px rgba(0,0,0,0.75);
 }
 
 #menu ul li:hover .menucon li{
