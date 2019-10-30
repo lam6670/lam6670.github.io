@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-image: url(https://previews.123rf.com/images/patterndesign/patterndesign1706/patterndesign170601008/80050477-abstract-blue-background-16-9-aspect-ratio-in-pixel-art-style-.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.menu{
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background: white;
+    -webkit-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 10px 5px 0px rgba(0,0,0,0.75);
+    z-index: 2;
+}
+
+.menu ul li{
+    width: auto;
+    height: 70px;
+    line-height: 70px;
+    float: right;
+    display: inline;
+    padding-right: 10px;
+}
+
+
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border: black solid 1px;
+    border-radius: 5px;
+    width: auto;
+    padding: 10px;
+}
+
+.menu ul li a:hover{
+    background: rgb(0, 247, 255);
+}
+
+.body{
+    width: 75%;
+    height: 1150px;
+    margin: 0 auto;
+}
+
+.top{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+
+.picture{
+    width: 200px;
+    height: 200px;
+    left: 46%;
+    margin-top: -100px;
+    position: absolute;
+    z-index: 1;
+}
+
+.picture img{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.mid{
+    width: 100%;
+    height: 400px;
+    margin: 60px 0;
+}
+
+.bot{
+    width: 100%;
+    height: 400px;
+}
+
+.chung{
+    width: 50%;
+    height: 400px;
+    float: left;
+    text-align: center;
+}
+
+.chung p{
+    padding: 40px;
+    
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background: black;
+    line-height: 150px;
+    color: yellow;
+    text-align: center;
+    font-size: 35px;
+}
