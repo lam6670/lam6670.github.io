@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+.all{
+    display: flex;
+    width: 100%;
+    height: 5200px;
+}
+
+.left{
+    width: 40%;
+    height: 1000px;
+}
+
+.right{
+    width: 60%;
+    height: 5200px;
+}
+
+.menu{
+    font-size: 35px;
+    opacity: 0.8;
+    float: right;
+    right: 0px;
+    padding: 10px;
+    position: fixed;
+    z-index: 5;
+    width: 50px;
+    height: 30px;
+    background: white;
+}
+
+.header{
+    width: 100%;
+    height: 400px;
+}
+
+.header p{
+    text-align: center;
+}
+
+.button{
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    background: rgb(231, 231, 231);
+    margin: 0 auto;
+}
+
+.button:hover{
+    background: rgb(170, 170, 170);
+    cursor: pointer;
+}
+
+.content{
+    width: 100%;
+    height: 4400px;
+    padding: 0 30px;
+    margin: 0 30px;
+}
+
+.myphoto{
+    width: 90%;
+    height: 1500px;
+}
+
+.myphotoleft{
+    width: 48%;
+    float: left;
+    height: 1500px;
+    padding: 0 4px;
+}
+
+.myphotoright{
+    width: 48%;
+    float: right;
+    height: 1500px;
+    padding: 0 4px;
+}
+
+.about{
+    width: 90%;
+    height: 1500px;
+    color: rgb(90, 90, 90);
+}
+
+.skill{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: gainsboro;
+    margin: 15px 0;
+}
+
+.skill p{
+    color: white;
+    text-align: center;
+}
+
+.skillinside{
+    background: rgb(70, 70, 70);
+    height: 30px;
+    opacity: 1.0!important;
+}
+
+
+.partner{
+    width: 100%;
+    height: 150px;
+    background: rgb(70, 70, 70);
+    margin: 50px 0;
+}
+
+.partner ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    width: 24%;
+    height: 150px;
+    color: white;
+    
+}
+
+.partner ul li p{
+    text-align: center;
+}
+.cachtop{
+    margin-top: 35px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.price{
+    width: 100%;
+    height: 650px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.priceleft{
+    width: 49%;
+    float: left;
+    height: 525px;
+    box-shadow: 1px 1px 5px 0.5px;
+
+}
+
+.basic{
+    color: white!important;
+    background: rgb(66, 66, 66);
+    height: 100px!important;
+    line-height: 100px!important;
+    font-size: 30px;
+}
+
+.priceleft li{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    opacity: 0.8;
+}
+
+.priceleft li p{
+    text-align: center;
+}
+
+.money{
+    height: 100px!important;
+    font-size: 30px;
+    text-align: center;
+}
+
+.signup{
+    height: 85px!important;
+    font-size: 18px;
+    text-align: center;
+    background: rgb(216, 216, 216);
+    line-height: 85px!important;
+}
+
+.signup span{
+    background: white ;
+    padding: 10px 25px;
+    color: black!important;
+    cursor: pointer;
+}
+
+.signup span:hover{
+    background: black;
+    color: white!important;
+}
+
+.priceright{
+    width: 49%;
+    float: right;
+    height: 525px;
+    box-shadow: 1px 1px 5px 0.5px;
+}
+
+.priceright li p{
+    text-align: center;
+    color: rgb(88, 88, 88);
+}
+
+.priceright li{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+}
+
+.priceright:hover, .priceleft:hover{
+    box-shadow: 1px 1px 8px 0.5px;
+}
+
+.contact{
+    width: 100%;
+    height: 800px;
+    list-style-type: none;
+    opacity: 0.8;
+}
+
+.contact li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 22px;
+}
+
+.contact li i{
+    width: 50px;
+}
+
+form p{
+    margin: 10px 0;
+    height: 70px;
+    width: 100%;
+}
+
+form p input{
+    width: 100%;
+    height: 50px;
+    padding-left: 5px;
+}
+
+.footer{
+    width: 100%;
+    height: 230px;
+    opacity: 0.7;
+    background: rgb(221, 221, 221);
+}
+
+.footer p{
+    text-align: center;
+}
+
+.footer p i:hover{
+    opacity: 0.5;
+}
+
+@media all and(max-width:600px)
+{
+    
+}
