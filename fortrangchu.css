@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.all{
+    width: 100%;
+    height: 4300px;
+}
+
+
+.bgmenu{
+    height: 60px;
+    width: 100%;
+}
+
+.menu{
+    width: 90%;
+    margin: 0 auto;
+    height: 60px;
+    min-width: 1300px;
+}
+
+.menu ul{
+    list-style-type: none;
+    float: right;
+    font-size: 14px;
+}
+
+.menu ul li{
+    display: inline-table;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 25px;
+    position: relative;
+    z-index: 40;
+}
+
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li a:hover{
+    color: red;
+}
+
+.menu ul li:hover .menugame{
+    display: block;
+}
+
+.menugame{
+    height: 250px;
+    width: 700px;
+    background: rgb(187, 154, 154);
+    position: absolute;
+    display: none;
+    z-index: 40;
+    margin-left: -450px;
+    padding: 15px;
+}
+
+.menugametop{
+    width: 100%;
+    height: 50%;
+    background: red;
+}
+
+.menugametop p{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    line-height: 30px;
+    opacity: 0.7;
+}
+
+.gamepc{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.gamepcinside a img{
+    width: 90%;
+    margin-right: 3%;
+}
+
+.gamepcinside a img:hover{
+    border: solid green 2px;
+}
+
+.menugamebot{
+    width: 100%;
+    height: 50%;
+    background: blue;
+}
+
+.menuplatform{
+
+}
+
+.content{
+    width: 100%;
+    height: 3870px;
+    min-width: 1300px;
+}
+
+.header{
+    width: 100%;
+    height: auto;
+}
+
+.absolute{
+    position: absolute;
+    z-index: 10;
+}
+
+.textcenter{
+   width: 70%!important;
+   left: 15%;
+}
+
+.garenaesports{
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+}
+
+.garenaplatform{
+    left: 18%;
+    color: #FFF;
+}
+.fifa4{
+    left: 45%;
+    color: #FFF;
+}
+
+.freefire{
+    left: 55%;
+    color: #FFF;
+}
+
+
+.buttonred{
+    border-radius: 30px;
+    border: 3px red solid;
+    padding: 5px 25px;
+    color: red;
+    font-size: 22px;
+    background: rgb(0, 0, 0);
+    opacity: 0.8;
+}
+
+.buttonred:hover{
+    cursor: pointer;
+}
+
+
+
+.aboutus{
+    width: 100%;
+    margin: 0 auto;
+    height: 650px;
+    background: #f8f9fa;
+}
+
+.game{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    height: 500px;
+    margin-top: 30px;
+    min-width: 1300px;
+}
+.gameinside{
+    background: url(https://www.garena.vn/img/wdwd-item-bg@2x.ca044f88.png) no-repeat;
+    background-size: 100%;
+    height: 500px;
+    width: 33%;
+    margin: 0 auto;
+    padding: 70px 40px 0 40px;
+}
+
+.gameinside p{
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+.gameinside h3{
+    color: rgb(243, 30, 30);
+    margin-bottom: 20px;
+}
+.anh{
+    width: 100%;
+    height: 150px;
+}
+
+.anh img{
+    width: 50%;
+    height: 100px;
+}
+
+.newgames{
+    width: 100%;
+    height: 700px;
+    background: rgb(187, 187, 66);
+}
+
+.garena{
+    width: 100%;
+    height: 1700px;
+    background: url(https://www.garena.vn/img/platforms_bg.34b89957.jpg);
+    background-position: center;
+    padding: 80px 5% 0 5%
+}
+
+.mobile{
+    width: 90%;
+    margin: 0 auto;
+    height: 850px;
+    
+}
+
+.mobilecontent{
+    width: 55%;
+    height: 800px;
+    float: left;
+}
+
+.mobilecontent a{
+    color: rgb(252, 61, 61);
+    font-size: 26px;
+}
+
+.textleft{
+    text-align: left;
+    padding-right: 100px;
+}
+
+.mobilephone{
+    width: 45%;
+    height: 800px;
+    float: left;
+    background: url(https://www.garena.vn/img/iphone@2x.b3dbf7bb.png) no-repeat;
+    background-size: 100%;
+}
+
+.garenapc{
+    width: 100%;
+    height: 600px;
+}
+
+.garenapcleft{
+    background: url(https://www.garena.vn/img/gpc_game.9da62a38.jpg) no-repeat;
+    width: 60%;
+    height: 600px;
+    background-size: cover;
+    margin-left: -10%;
+    float: left;
+}
+
+.garenapcright{
+    width: 50%;
+    height: 600px;
+    float: left;
+}
+
+.textgarena{
+    padding-left: 80px;
+    text-align: left;
+    padding-right: 50px;
+}
+
+.textgarena a{
+    color: rgb(252, 61, 61);
+    font-size: 26px;
+}
+
+.work{
+    width: 100%;
+    height: 390px;
+    padding: 0 120px;
+}
+
+.workleft{
+    width: 40%;
+    height: 390px;
+    float: left;
+}
+
+.workright{
+    width: 60%;
+    float: right;
+    margin-right: -9%;
+    right: 0;
+    height: 390px;
+    background: url(https://www.garena.vn/img/career_bg@2x.6335d84a.jpg) no-repeat;
+    background-size: 110%;
+}
+
+.footer{
+    width: 100%;
+    height: 370px;
+    padding: 50px 100px 0 120px;
+}
+
+.footertop{
+    width: 100%;
+    height: 300px;
+}
+
+.footertopleft{
+    width: 55%;
+    float: left;
+    text-align: left;
+}
+
+.footertopleft p{
+    text-align: left;
+    margin: 5px;
+    opacity: 0.7;
+    font-size: 16px;
+}
+
+.footertopright{
+    width: 45%;
+    float: left;
+    height: 300px;
+    display: flex;
+}
+
+.company{
+    width: 33%;
+    height: 300px;
+}
+
+.company p{
+    margin-bottom: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.company a{
+    color: black;
+}
+
+.opacity{
+    opacity: 0.6;
+    margin-bottom: 25px!important;
+}
+
+.footerbot{
+    width: 100%;
+    height: 70px;
+    padding: 15px 0;
+}
+
+.footerbotleft{
+    width: 55%;
+    float: left;
+}
+
+.footerbotright{
+    width: 45%;
+    float: left;
+    opacity: 0.6;
+}
+
+.footerbotright span{
+    padding: 0 20px;
+}
+
+.footerbotright span a{
+    color: black;
+}
+
+.footerbotright span a:hover{
+    text-decoration: none;
+}
