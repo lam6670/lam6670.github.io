@@ -205,8 +205,17 @@
 
 .newgames{
     width: 100%;
-    height: 700px;
-    background: rgb(187, 187, 66);
+    height: auto;
+}
+
+.imgforgame{
+    width: 60%;
+    top: 20%;
+    left: 20%;
+}
+
+.filter{
+    filter: grayscale(0.3);
 }
 
 .garena{
