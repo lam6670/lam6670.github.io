@@ -55,18 +55,18 @@
 .menugame{
     height: 250px;
     width: 700px;
-    background: rgb(187, 154, 154);
+    background: white;
     position: absolute;
     display: none;
     z-index: 40;
     margin-left: -450px;
     padding: 15px;
+    box-shadow: 0px 1px 5px 0px;
 }
 
 .menugametop{
     width: 100%;
     height: 50%;
-    background: red;
 }
 
 .menugametop p{
@@ -84,22 +84,70 @@
 }
 
 .gamepcinside a img{
-    width: 90%;
-    margin-right: 3%;
+    width: 95%;
+    border: solid transparent 3px;
+    float: left;
 }
 
 .gamepcinside a img:hover{
-    border: solid green 2px;
+    border: solid rgb(212, 34, 34) 3px;
 }
 
 .menugamebot{
     width: 100%;
     height: 50%;
-    background: blue;
 }
 
-.menuplatform{
+.menugamebot p{
+    width: 100%;
+    height: 30px;
+    margin: 0;
+    line-height: 30px;
+    opacity: 0.7;
+}
 
+.menunentang{
+    height: 250px;
+    width: 600px;
+    background: white;
+    position: absolute;
+    z-index: 40;
+    margin-left: -250px;
+    padding: 15px;
+    box-shadow: 0px 1px 5px 0px;
+    display: flex;
+    padding: 30px;
+    display: none;
+}
+
+
+
+.menunentang a{
+    width: 50%!important;
+    height: auto;
+    float: left;
+}
+
+a:hover .ios{
+    color: black;
+}
+
+.menunentang a h4{
+    margin-top: 25px;
+}
+
+.menunentang a p{
+    opacity: 0.6;
+    margin: 0;
+    height: 30px;
+    line-height: 30px;
+}
+
+.menunentang a img{
+    width: 85%;
+}
+.menu ul li:hover .menunentang{
+    display: inline;
 }
 
 .content{
@@ -210,7 +258,7 @@
 
 .imgforgame{
     width: 60%;
-    top: 20%;
+    top: 18%;
     left: 20%;
 }
 
