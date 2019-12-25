@@ -43,12 +43,12 @@ a{
     display: inline-table;
 }
 
-.menuinside ul li:hover .dropdown{
+/* .menuinside ul li:hover .dropdown{
     display: inline-table;
     position: absolute;
     width: 1000%!important;
     left: -1500%;
-}
+} */
 
 
 .header{

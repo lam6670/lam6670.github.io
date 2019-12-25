@@ -404,9 +404,9 @@ a:hover .ios{
     color: black;
 }
 
-.company a:hover{
-    text-decoration: none;
-    color: black;
+.company p a:hover{
+    text-decoration: none!important;
+    color: black!important;
 }
 
 .opacity{
