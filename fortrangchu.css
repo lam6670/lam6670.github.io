@@ -404,6 +404,11 @@ a:hover .ios{
     color: black;
 }
 
+.company a:hover{
+    text-decoration: none;
+    color: black;
+}
+
 .opacity{
     opacity: 0.6;
     margin-bottom: 25px!important;
